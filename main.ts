@@ -5,7 +5,7 @@ namespace led_matrix {
      * 
      */
     //% blockId=LED_MATRIX
-    //% block="LED on at indexed plot"
+    //% block="LED at $index"
     //% index.min=0 index.max=25
 
     export function plotN(index: number): void {
