@@ -27,12 +27,12 @@ Use the '``LED at``' block to render LEDs at a index location.
 
 특정 위치에 LED의 불을 켜기 위해서는 '``LED at``' 블록을 사용하세요. 
 
-```blocks
+````blocks
 for(let i=0; i<25; i++) {
     led_matrix.plotN ( i )
     pause(500)
 }
-```
+````
 
 #### Metadata (used for search, rendering)
 
