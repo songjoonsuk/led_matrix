@@ -3,9 +3,9 @@
 
 ## Usage
 
-### ``plotN``
+#### ``LED at``
 
-Use the ``plotN`` block to render LEDs at a index location
+Use the ``LED at`` block to render LEDs at a index location
 
 ```blocks
 for(let i=0; i<25; i++) {
