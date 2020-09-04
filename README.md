@@ -1,6 +1,18 @@
 
 > Open this page at [https://songjoonsuk.github.io/led_matrix/](https://songjoonsuk.github.io/led_matrix/)
 
+## Usage
+
+### ``plotN``
+
+Use the ''plotN'' block to render LEDs at a index location
+
+```blocks
+for(let i=0; i<25; i++) {
+    led_matrix.plotN ( i );
+    pause(500);
+}
+```
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
