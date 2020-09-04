@@ -1,20 +1,7 @@
 
 > Open this page at [https://songjoonsuk.github.io/led_matrix/](https://songjoonsuk.github.io/led_matrix/)
 
-## Usage
 
-#### ``LED at``
-
-Use the '``LED at``' block to render LEDs at a index location.
-
-특정 위치에 LED의 불을 켜기 위해서는 '``LED at``' 블록을 사용하세요. 
-
-```blocks
-for(let i=0; i<25; i++) {
-    led_matrix.plotN ( i )
-    pause(500)
-}
-```
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -31,6 +18,21 @@ To edit this repository in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/songjoonsuk/led_matrix** and click import
+
+## Usage
+
+#### ``LED at``
+
+Use the '``LED at``' block to render LEDs at a index location.
+
+특정 위치에 LED의 불을 켜기 위해서는 '``LED at``' 블록을 사용하세요. 
+
+```blocks
+for(let i=0; i<25; i++) {
+    led_matrix.plotN ( i )
+    pause(500)
+}
+```
 
 #### Metadata (used for search, rendering)
 
