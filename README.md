@@ -9,8 +9,8 @@ Use the ``plotN`` block to render LEDs at a index location
 
 ```blocks
 for(let i=0; i<25; i++) {
-    led_matrix.plotN ( i );
-    pause(500);
+    led_matrix.plotN ( i )
+    pause(500)
 }
 ```
 ## Use as Extension
